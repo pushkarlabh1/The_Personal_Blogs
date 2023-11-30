@@ -116,6 +116,7 @@ min-height: 100vh;
 #projects{
     background-color: var(--secondary);
     color: var(--neutral);
+    margin-top: 30px;
 }
 
 #projects h1{
