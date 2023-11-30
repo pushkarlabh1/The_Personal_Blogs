@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pushkar Portfolio</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,300&family=Montserrat+Subrayada&family=Roboto+Slab:wght@600&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <ul class="nav-links">
+                <li><a href="#welcome-section" class="nav-link">WELCOME</a></li>
+                <li><a href="#projects" class="nav-link">BLOGS</a></li>
+                <li><a href="#contacts" class="nav-link">CONTACTS</a></li>
+            </ul>
+        </nav>
+    </header>
+   
+    <section id="welcome-section">
+        <!--scrolling text--> 
+        <div class="container">
+            <h1><span class="auto-type"></span></h1>
+        </div>
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+        <Script>
+            var typed=new Typed (".auto-type",{
+                strings: ["Hello, Welcome to LabhBlogs !", "Where ideas flourish and creativity knows no bounds! "],
+                typeSpeed: 20,
+                backspeed: 200,
+                loop: true
+            })
+        </Script>
+        <p> THE HEAVEN FOR BLOGGERS</p>
+             <div class="welcome-logo">
+        <p2> LabhBlog is a website which provides you an amazing blogs about life of an Software Developer.<br>  Discover a rich tapestry of content, ranging from personal anecdotes and challenges faced in the <br>coding trenches to expert tutorials and industry trends. Dive into a community that celebrates the<br> human side of programming, sharing diverse stories and fostering connections. LabhBlog is not<br> just a blog; it's a dynamic hub where passion for coding meets a vibrant online community.<br> Join us on this exciting journey through the ever-evolving world of software development.</p2>
+        <img src="digital-dictionary-blog-follow-like-260nw-230245711.jpg.webp" alt="Blogphoto"></div>
+        
+        <div class="email-section">
+            <h2>Want Excited Discount Offers and Giveaways?</h2><br>
+            <form action="https://www.freecodecamp.com/email-submit" id="form">
+             <input 
+             id="email"
+             type= "email"
+             required 
+        
+             placeholder="Enter your email address"
+              name="email">
+              <input type="Submit" id="submit" value="GET STARTED">
+            </form>
+        </div>
+    </section>
+    
+
+    <div class="max-width-1 m-auto">
+        <hr>
+    </div>
+
+    <section id="projects">
+        <h1>These are some of my Blogging projects</h1>
+        <div class="projects">
+              <a href="" class="project-tile">
+                <img src="https://i.ibb.co/7CbY7qw/store.png" alt="">
+              <p><span>&lt;</span>PRODUCT LANDING PAGE<span>/&gt;</span></p>
+          </a>
+          <a href="" class="project-tile">
+              <img src="https://i.ibb.co/t4MfZsZ/tribute.png" alt="">
+              <p><span>&lt;</span>TRIBUTE PAGE<span>/&gt;</span></p>
+          </a>
+          <a href="" class="project-tile">
+              <img src="https://i.ibb.co/zbgfpgj/documentation.png" alt="">
+              <p><span>&lt;</span>TECHNICAL DOCUMENTATION PAGE<span>/&gt;</span></p>
+          </a>
+          <a href="" class="project-tile">
+              <img src="https://i.ibb.co/T0F5Xyn/survey.png" alt="">
+              <p><span>&lt;</span>SURVEY FORM<span>/&gt;</span></p>
+          </a>
+        </div>
+        <a href="" class="show-all"> Show All<i class="ri-arrow-right-s-line"></i>
+        </a>
+    </section>
+
+    
+    <section id="contacts">
+        <div class="con">
+            <h1>Let's <span class="auto-typed"></span></h1>
+        </div>
+    
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+        <script>
+            var typed = new Typed(".auto-typed", {
+                strings: ["Together Work..", " Unite Each Other..","Make a Beautiful Blog."],
+                typespeed: 500,
+                backspeed: 500,
+                loop: true
+            })
+        </script>
+    
+        <p class="coffee-question">
+            Please contact me for any new openings.
+        </p>
+        <br>
+    
+        <div class="social-medias">
+            <a href="#" class="social-media"> <i class="ri-facebook-box-fill ri-3x"></i><h2>Facebook</h2></a>
+            <a href="https://github.com/pushkarlabh1" target="_blank" class="social-media"> <i class="ri-github-fill ri-3x"></i><h2>Github</h2></a>
+            <a href="https://www.freecodecamp.org/fcc21ff24a9-5e64-4772-ad2f-1bee8e3e9212" target="_blank" class="social-media"> <i class="ri-fire-fill ri-3x"></i><h2>FreeCodeCamp</h2></a>
+            <a href="mailto:your.email@example.com" class="social-media"> <i class="ri-at-line ri-3x"></i><h2>Send a mail</h2></a>
+            <a href="tel:+1234567890" class="social-media"> <i class="ri-cellphone-fill ri-3x"></i><h2>Call me</h2></a>
+        </div>
+    </section>
+    
+
+    <footer>Created by Pushkar Labh, Nov 2023</footer>
+</body>
+</html>
